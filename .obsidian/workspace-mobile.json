@@ -1,0 +1,140 @@
+{
+  "main": {
+    "id": "8f41fd701ece4990",
+    "type": "split",
+    "children": [
+      {
+        "id": "c25ee0a296c90fa5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92f622ae5b02b05b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lab.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c222e9c4f419f4a6",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ca12804356c62862",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "21f110f4eb2d0db4",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "2a2f3943fdd964a4",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "1bd9d7a5f7db06a3",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "15e2d91bc19feb91",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "726084c728c0b1d6",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Lab.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": true,
+            "unlinkedCollapsed": false
+          }
+        }
+      },
+      {
+        "id": "2a59e5d3ac105060",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Lab.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "608f23d6059c26a0",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Lab.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "ribbon": {
+    "mostRecentAction": "Omnisearch"
+  },
+  "active": "92f622ae5b02b05b",
+  "lastOpenFiles": [
+    "main/knowledge/Cartographer.md",
+    "Cartographer/CSM.pdf.md",
+    "Lab.md",
+    "learning plan.md",
+    "Course.md",
+    "__Control panel.md",
+    "main/knowledge/Matlab.md",
+    "main/knowledge/Linux Q&A.md",
+    "main/knowledge/Linux.md"
+  ]
+}

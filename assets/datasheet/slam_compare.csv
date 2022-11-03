@@ -1,0 +1,17 @@
+test,gmapping,cartographer,LOAM,LEGO-LOAM,LIOM-Livox
+Calculation,low,high,high,medium,high
+Memory,very high,medium,medium,medium,medium
+Closure-loop,no,yes,yes,yes,yes
+Calibration Comp,no,imu,no,no,no
+IMU,For pose_ekf with the odometer data,"gravity direction;
+initial orientation","gravity direction;
+","gravity direction;
+initial orientation","gravity direction;
+initial orientation"
+Motion trajectory,yes,yes,yes,yes,yes
+Dynamic motion,yes,yes,no,no,yes
+3d application,no,yes,yes,yes,yes
+2d application,yes,yes,no,no,no
+location,low,medium,high,high,high
+Time delay,low,medium,high,medium,medium
+map,2d grid map,2d grid map,pointcloud map,pointcloud map ,pointcloud map

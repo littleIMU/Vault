@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">14</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">881d77ce-2ab6-4437-99e3-75da7562dc46</dc:identifier>
+        <dc:title>Discrete Mathematics and Its Applications</dc:title>
+        <dc:creator opf:role="aut">Kenneth</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (4.99.4) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2011-12-28T05:27:43+00:00</dc:date>
+        <dc:language>eng</dc:language>
+        <dc:subject>math</dc:subject>
+        <meta name="calibre:author_link_map" content="{&quot;Kenneth&quot;: &quot;&quot;}"/>
+        <meta name="calibre:timestamp" content="2022-09-02T09:00:03+00:00"/>
+        <meta name="calibre:title_sort" content="I1145224.pdf"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Cover" href="cover.jpg"/>
+    </guide>
+</package>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">28</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">7d7499a0-9cf0-4a51-a3aa-cb3f1e79feb9</dc:identifier>
+        <dc:title>Probability, Statistics, and Random Processes for Electrical Engineering</dc:title>
+        <dc:creator opf:file-as="Leon-Garcia, Alberto" opf:role="aut">Alberto Leon-Garcia</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (4.99.4) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2007-12-27T16:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;
+&lt;h3&gt;Product Description&lt;/h3&gt;
+&lt;p&gt;This is the standard textbook for courses on probability and statistics, not substantially updated. While helping students to develop their problem-solving skills, the author motivates students with practical applications from various areas of ECE that demonstrate the relevance of probability theory to engineering practice. Included are chapter overviews, summaries, checklists of important terms, annotated references, and a wide selection of fully worked-out real-world examples. In this edition, the Computer Methods sections have been updated and substantially enhanced and new problems have been added.&lt;/p&gt;
+&lt;h3&gt;From the Back Cover&lt;/h3&gt;
+&lt;p&gt;This is the standard textbook for courses on probability and statistics, not substantially updated. While helping students to develop their problem-solving skills, the author motivates students with practical applications from various areas of ECE that demonstrate the relevance of probability theory to engineering practice. Included are chapter overviews, summaries, checklists of important terms, annotated references, and a wide selection of fully worked-out real-world examples. In this edition, the Computer Methods sections have been updated and substantially enhanced and new problems have been added. &lt;/p&gt;
+&lt;p&gt; &lt;a href="https://www.probabilitycourse.com/"&gt;Correpondent Course Online&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</dc:description>
+        <dc:publisher>‎Pearson</dc:publisher>
+        <dc:identifier opf:scheme="ISBN">9780131471221</dc:identifier>
+        <dc:identifier opf:scheme="AMAZON">0131471228</dc:identifier>
+        <dc:identifier opf:scheme="GOOGLE">GUJosCkbBywC</dc:identifier>
+        <dc:language>eng</dc:language>
+        <dc:subject>Mathematics</dc:subject>
+        <dc:subject>Probability &amp; Statistics</dc:subject>
+        <dc:subject>General</dc:subject>
+        <dc:subject>Technology &amp; Engineering</dc:subject>
+        <dc:subject>Electrical</dc:subject>
+        <dc:subject>Course</dc:subject>
+        <meta name="calibre:author_link_map" content="{&quot;Alberto Leon-Garcia&quot;: &quot;&quot;}"/>
+        <meta name="calibre:rating" content="8"/>
+        <meta name="calibre:timestamp" content="2022-10-25T09:03:14.302456+00:00"/>
+        <meta name="calibre:title_sort" content="Probability, Statistics, and Random Processes for Electrical Engineering"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Cover" href="cover.jpg"/>
+    </guide>
+</package>

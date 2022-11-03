@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">12</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">986ab1c9-a6a3-4254-aeb3-15715600da62</dc:identifier>
+        <dc:title>Introduction to Algorithms, Third Edition</dc:title>
+        <dc:creator opf:file-as="Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein" opf:role="aut">Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (4.99.4) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2018-10-15T09:33:56+00:00</dc:date>
+        <dc:description>The MIT Press</dc:description>
+        <dc:identifier opf:scheme="ISBN">0262033844</dc:identifier>
+        <dc:language>eng</dc:language>
+        <dc:subject>algorithm</dc:subject>
+        <meta name="calibre:author_link_map" content="{&quot;Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein&quot;: &quot;&quot;}"/>
+        <meta name="calibre:timestamp" content="2022-09-02T09:00:02+00:00"/>
+        <meta name="calibre:title_sort" content="Introduction to Algorithms, Third Edition"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Cover" href="cover.jpg"/>
+    </guide>
+</package>

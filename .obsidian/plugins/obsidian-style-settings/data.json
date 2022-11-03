@@ -1,0 +1,12 @@
+{
+  "minimal-style@@zoom-off": true,
+  "things-style@@link-decoration": "None",
+  "things-style@@link-external-decoration": "None",
+  "quick-explorer@@qe-hide-breadcrumbs": false,
+  "quick-explorer@@qe-obsidian-title": "qe-title-hide",
+  "minimal-style@@image-muted": 1,
+  "minimal-style@@file-header-font-weight": 800,
+  "minimal-style@@file-header-justify": "left",
+  "minimal-advanced@@styled-scrollbars": false,
+  "minimal-advanced@@cursor": "default"
+}

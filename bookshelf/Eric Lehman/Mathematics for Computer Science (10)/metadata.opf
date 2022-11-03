@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">10</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">a919ca49-502d-4488-a90e-821e07dc2686</dc:identifier>
+        <dc:title>Mathematics for Computer Science</dc:title>
+        <dc:creator opf:file-as="Lehman, Eric &amp; Leighton, F. Thomson &amp; Meyer, Albert R." opf:role="aut">Eric Lehman</dc:creator>
+        <dc:creator opf:file-as="Lehman, Eric &amp; Leighton, F. Thomson &amp; Meyer, Albert R." opf:role="aut">F. Thomson Leighton</dc:creator>
+        <dc:creator opf:file-as="Lehman, Eric &amp; Leighton, F. Thomson &amp; Meyer, Albert R." opf:role="aut">Albert R. Meyer</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (4.99.4) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2017-07-04T16:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;
+&lt;p&gt;This book covers elementary discrete mathematics for computer science and engineering. It emphasizes mathematical definitions and proofs as well as applicable methods. Topics include formal logic notation, proof methods; induction, well-ordering; sets, relations; elementary graph theory; integer congruences; asymptotic notation and growth of functions; permutations and combinations, counting principles; discrete probability. Further selected topics may also be covered, such as recursive definition and structural induction; state machines and invariants; recurrences; generating functions. &lt;/p&gt;
+&lt;p&gt;The color images and text in this book have been converted to grayscale.&lt;/p&gt;
+&lt;p&gt;Similar topic to&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/"&gt;MIT-6-042j-spring-2015 Mathematics for Computer Science&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</dc:description>
+        <dc:publisher>12th Media Services</dc:publisher>
+        <dc:identifier opf:scheme="GOOGLE">EdOQswEACAAJ</dc:identifier>
+        <dc:identifier opf:scheme="ISBN">9781680921212</dc:identifier>
+        <dc:language>eng</dc:language>
+        <dc:subject>math</dc:subject>
+        <dc:subject>computer</dc:subject>
+        <meta name="calibre:author_link_map" content="{&quot;Eric Lehman&quot;: &quot;&quot;, &quot;F. Thomson Leighton&quot;: &quot;&quot;, &quot;Albert R. Meyer&quot;: &quot;&quot;}"/>
+        <meta name="calibre:timestamp" content="2022-09-02T09:00:01+00:00"/>
+        <meta name="calibre:title_sort" content="Mathematics for Computer Science"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Cover" href="cover.jpg"/>
+    </guide>
+</package>

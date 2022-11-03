@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">26</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">7fa93b58-651c-49e3-99bc-7f8abe430649</dc:identifier>
+        <dc:title>Quaternion kinematics for the error-state Kalman filter</dc:title>
+        <dc:creator opf:file-as="Solà, Joan" opf:role="aut">Joan Solà</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (4.99.4) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+        <dc:language>en</dc:language>
+        <dc:subject>Computer Science [cs]/Artificial Intelligence [cs.AI]</dc:subject>
+        <dc:subject>Engineering Sciences [physics]/Automatic</dc:subject>
+        <dc:subject>Inertial Measurement Unit</dc:subject>
+        <dc:subject>SLAM Visuel</dc:subject>
+        <dc:subject>Quaternion</dc:subject>
+        <dc:subject>Kalman Filters</dc:subject>
+        <meta name="calibre:author_link_map" content="{&quot;Joan Solà&quot;: &quot;&quot;}"/>
+        <meta name="calibre:timestamp" content="2022-10-21T11:03:17+00:00"/>
+        <meta name="calibre:title_sort" content="Quaternion kinematics for the error-state Kalman filter"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Cover" href="cover.jpg"/>
+    </guide>
+</package>

@@ -1,0 +1,5 @@
+PROJECT (HELLO)
+add_subdirectory(src bin)
+install(FILES COPYRIGHT README DESTINATION share/doc/cmake/t2)
+install(PROGRAMS runhello.sh ${PROJECT_BINARY_DIR}/hello DESTINATION bin)
+install(DIRECTORY doc/ DESTINATION share/doc/cmake/t2)

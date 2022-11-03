@@ -1,0 +1,11 @@
+{
+  "accentColor": "#4e8ce4",
+  "cssTheme": "Minimal",
+  "baseFontSize": 17,
+  "showViewHeader": false,
+  "nativeMenus": false,
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "center-images"
+  ]
+}

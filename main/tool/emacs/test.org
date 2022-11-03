@@ -1,0 +1,32 @@
+#+title:  Example Org File
+#+author: TEC
+#+date:   2020-10-26
+Outlining
+Headings and folding make structured editing a breeze. Plain text makes it easy to sync and version control Org files.
+* Revamp orgmode.org website
+# use return statement
+#+begin_src python :results output
+  print('hello world')
+  x = 3 + 4
+  print(f'x = {x}')
+#+end_src
+
+#+RESULTS:
+: hello world
+: x = 7
+
+* plot test
+    #+begin_src python :results output
+      import numpy as np
+      import math
+      import matplotlib.pyplot as plt
+
+      x = np.linspace(0, 1, 101)
+      y = np.sin(2*math.pi*x)
+      plt.plot(x,y)
+      plt.grid(True)
+      plt.savefig(sine_plot.png')
+    #+end_src
+
+    #+caption: Here is a sine plot
+    [[./sine_plot.png]]

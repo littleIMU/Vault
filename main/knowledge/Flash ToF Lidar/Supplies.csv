@@ -1,0 +1,20 @@
+﻿Product Model,Producer,Link,Type,Possible,Frame Rate,Power,Field,FOV (A x E),Distance (m),Communicatoin,Annotation,Related P,Price,Size (mm),Resolution,Component
+VL53L5CX,STMicroelectronics,https://www.st.com/en/imaging-and-photonics-solutions/vl53l5cx.html,DToF package,Yes,15,,,63 x 63,≤ 4,,,,,6.4 x 3.0 x 1.5,16-zone (4x4),All
+TMF8820,AMS&OSRAM,https://ams.com/en/tmf8820,DToF package,Yes,30,,,63 x 63,≤ 5,,,,,2.0 x 4.6 x 1.4,9-zone (3x3),
+WIDE-V2RB61,光珀智能,http://www.genius-pros.com/index.php/product/info/8.html,IToF,Yes,20,<5W,,110 x 20,0.2 - 4,ethernet,,,,150 x 72 x 45,640*60,
+CE30,北醒光子,http://www.benewake.com/product/detail/5c34571eadd0b639f4340ce5.html#apply,IToF,Yes,20,,,132 x 9,0.1 - 4,CAN/TCP,,,,"47 x 79 x 50 ",320*24,
+IRS9100c,Infineon&PCM,https://www.infineon.com/cms/en/product/sensor/tof-3d-image-sensors/tof-3d-image-sensors-for-consumer/ / https://www.infineon.com/cms/en/product/sensor/tof-3d-image-sensors/,IToF package,No,,,,,,,,,,,224 x 172,Image sensor
+IMX459 1/2.9,Sony,https://www.sony-semicon.co.jp/e/news/2021/2021090601.html,DTOF,No,60,,,,≤ 300,,provide Mechanical scanning LiDAR reference design,Apple Lidar,,6.25 x 6.25,189 x 600,SPAD array
+unkonwn,Lumentum,https://www.lumentum.com/en/3d-sensing,VSCEL driver,No,,,,,,,,Apple Lidar,,,,
+unknown,Blackmore,,FMCW,No,,,,,,,,,,,,
+unknown,TetraVue,,Light Slicer,No,,,,,,,,,,,,
+LCA3,LeddarTech,,chip,No,,,,,,,,,,,,
+unknown,Strobe/GE,,LFM,No,,,,,,,,,,,,
+S3,Quanergy,https://quanergy.com/products/s3/,OPA,No,,,,,,,,,,big,,
+WALLE-120F,Goodix,,IToF,Yes,,,,120 x 15,< 2,,,,<500,,240 x 180,Demo
+D430,Intel,,Structure light,Yes,90,,,87 x 58,< 2,,,,1249,90 x 25 x 25,1280 × 720,
+,舜宇光学,https://wx2.qq.com/cgi-bin/mmwebwx-bin/webwxcheckurl?requrl=http%3A%2F%2Fhttps%3A%2F%2Fwww.sunnyoptical.com%2F001018003%2Fp1687.html&skey=%40crypt_b40dd7b5_95d5fb20eef2cf6d45565c3c1fde5db5&deviceid=e949281580186125&pass_ticket=%252FZPG1AkBgqfhgmGumPALqWY0JmVsdTRncI8yAOfB%252Fh0nBAPFujaWr%252FhR32TZ0Gzz&opcode=2&scene=1&username=@730730df9abf14bcdd20a8e6a7907103e961723b26d30f2fd10aa1c8e791af24,,Yes,,,,,,,,,,,,
+m4330,芯视界,,m4330,Yes,,,,,,,,,,,,
+,凌云光子,,,Yes,,,,,,,,,,,,
+cyglidar_d1,cygbot,,,Yes,,,,,,,,,,,,
+,,,,Yes,,,,,,,,,,,,

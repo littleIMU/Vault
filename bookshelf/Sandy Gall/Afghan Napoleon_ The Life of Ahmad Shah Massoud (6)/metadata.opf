@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">6</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">996d669c-9e62-4a51-9a11-f1944105a8ed</dc:identifier>
+        <dc:title>Afghan Napoleon: The Life of Ahmad Shah Massoud</dc:title>
+        <dc:creator opf:file-as="Gall, Sandy" opf:role="aut">Sandy Gall</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (4.99.4) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2021-09-06T19:00:00+00:00</dc:date>
+        <dc:description>Downloaded from z-lib.org</dc:description>
+        <dc:publisher>Haus Publishing</dc:publisher>
+        <dc:identifier opf:scheme="MOBI-ASIN">B09DH2L8YF</dc:identifier>
+        <dc:identifier opf:scheme="GOOGLE">HpBDzgEACAAJ</dc:identifier>
+        <dc:identifier opf:scheme="ISBN">9781913368227</dc:identifier>
+        <dc:language>eng</dc:language>
+        <dc:subject>Biography &amp; Autobiography</dc:subject>
+        <dc:subject>General</dc:subject>
+        <dc:subject>Historical</dc:subject>
+        <dc:subject>History</dc:subject>
+        <dc:subject>Asia</dc:subject>
+        <dc:subject>Central Asia</dc:subject>
+        <dc:subject>Military</dc:subject>
+        <dc:subject>Wars &amp; Conflicts (Other)</dc:subject>
+        <meta name="calibre:author_link_map" content="{&quot;Sandy Gall&quot;: &quot;&quot;}"/>
+        <meta name="calibre:timestamp" content="2022-09-02T08:54:45+00:00"/>
+        <meta name="calibre:title_sort" content="Afghan Napoleon: The Life of Ahmad Shah Massoud"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Cover" href="cover.jpg"/>
+    </guide>
+</package>

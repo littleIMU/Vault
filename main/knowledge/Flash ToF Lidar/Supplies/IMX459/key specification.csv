@@ -1,0 +1,18 @@
+﻿Model name,IMX459
+Effective pixels,"597 x 168 pixels (H x V), approx. 100,000 pixels"
+Image size,Diagonal 6.25 mm (1/2.9-type)
+Recommended light source wavelength,905 nm
+SPAD unit cell size,10.08 μm x 10.08 μm (H x V)
+Element size (ToF pixel unit),3 x 3 (H x V)
+Photon detection efficiency,24%
+Response speed,Approx. 6 ns
+Power supply,SPAD breakdown voltage
+SPAD excess voltage,3.3V
+Analog,3.3V
+Digital,1.1V
+Interface,1.8V
+Interface,MIPI CSI-2 serial output (4 lane / 2 lane)
+Package,152-pin plastic BGA
+Package size,15.65 mm x 15.35 mm (H x V)
+Max. detection distance,300 m
+Distance precision at 300 m,3 x 3 pixels (H x V) additive mode: 30 cm6 x 6 pixels (H x V) additive mode: 15 cm
