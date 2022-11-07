@@ -31,7 +31,7 @@ Up Level: (parent:: [Slam Framework](Slam%20Framework.md))
 # Question
 - [x]  How to calculate the relative pose between a scan and its belonging submap?
 - [x]  The principle of pose_ekf?
-- [ ]  pose-pose edge, where the virtual measurement between two nodes come from? A transformation that make the observation acquired from two nodes maximally overlapped. I can understand it in close-loop, but in submap, the predicted measurement seems to be the same as virtual measurement as the predicted measurement is derived from scanmatching technique.
+- [ ] pose-pose edge, where the virtual measurement between two nodes come from? A transformation that make the observation acquired from two nodes maximally overlapped. I can understand it in close-loop, but in submap, the predicted measurement seems to be the same as virtual measurement as the predicted measurement is derived from scanmatching technique.
 - [ ]  
 
 # Compile problem
@@ -94,11 +94,11 @@ Node structure from rqt_graph in 2d demo
 
 ## PoseExtrapolator
 
-![Untitled](Cartographer/Untitled%202.png)
-
+![Untitled | 500](Cartographer/Untitled%202.png)
+<p align="center"> _figure 1. IMU interpolation layout_ </p>
 Considering that there is no enough IMU and odometer data. If IMU data is available, time is decided by IMU, velocity is decided by otometer (F) or fixed frames (Sec);
 
-```bash
+```cpp
 Eigen::Vector3d PoseExtrapolator::ExtrapolateTranslation(common::Time time) {
   const TimedPose& newest_timed_pose = timed_pose_queue_.back();
   const double extrapolation_delta =

@@ -8,5 +8,15 @@
   "minimal-style@@file-header-font-weight": 800,
   "minimal-style@@file-header-justify": "left",
   "minimal-advanced@@styled-scrollbars": false,
-  "minimal-advanced@@cursor": "default"
+  "minimal-advanced@@cursor": "default",
+  "minimal-style@@row-hover": true,
+  "minimal-style@@row-lines": true,
+  "minimal-style@@col-lines": false,
+  "minimal-style@@table-text-size": "1.01em",
+  "minimal-style@@table-lines": false,
+  "minimal-style@@table-tabular": false,
+  "minimal-style@@table-numbers": false,
+  "minimal-style@@inline-title-size": "1.125em",
+  "minimal-style@@window-title-off": false,
+  "minimal-style@@inline-title-weight": 700
 }

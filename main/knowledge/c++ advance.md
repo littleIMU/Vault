@@ -184,13 +184,13 @@ A prvalue expression has no address that is accessible by your program. Examples
 
 # prvalue
 
-- [ ] Is the lifetime within a sentence?
+- [ ]  #Ques Is the lifetime within a sentence?
 
 If it has identity, but cannot be moved it’s an lvalue; otherwise it’s an rvalue. A typical lvalue is a variable name a.
 If it can be moved, but has no identity is a prvalue (pure right value); otherwise it’s a glvalue (generalized left value). A typical prvalue is a temporary resulting from a function call/operator (with a non-reference return type) like s.substr(1, 2) or a + b or integral constant like 42.
 If it has an identity and can be moved it’s an xvalue (because that was considered strange, and x is a good prefix for weird things). A typical xvalue is std::move(a).
 
-```bash
+```cpp
 int main()
 {
     int i, j, *p;

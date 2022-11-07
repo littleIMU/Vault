@@ -85,8 +85,8 @@ neabot_package/web_video_server
 
 #  Serial port problem and solution
 
-[Serial port setting](https://www.notion.so/Serial-port-setting-aec3d6c266754d118ebf507672e4d796) 
-[udev rule](https://www.notion.so/udev-rule-f58414b6252049f3906606464547abd1) 
+[Serial port setting](../knowledge/Serial%20port%20setting.md)
+[udev rule](../knowledge/udev%20rule.md)
 
 # Config in bash
 

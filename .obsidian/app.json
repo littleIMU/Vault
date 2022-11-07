@@ -1,7 +1,16 @@
 {
-  "attachmentFolderPath": "./test2",
+  "attachmentFolderPath": "./carto and cyglidar",
   "vimMode": true,
   "useMarkdownLinks": true,
   "newFileLocation": "current",
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "readableLineLength": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 90
+  },
+  "defaultViewMode": "preview"
 }

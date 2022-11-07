@@ -10,7 +10,7 @@ dv.table(["File","Status","Category","LastEdited"], dv.pages('"main"')
 	.limit(_limit))
 ```
 
-# Recent #Todo
+# Recent  Todos
 
 ```dataviewjs
 dv.taskList(dv.pages('"main"').file.tasks
@@ -18,7 +18,7 @@ dv.taskList(dv.pages('"main"').file.tasks
 	.limit(10))
 ```
 
-# Recent #Ques 
+# Recent Questions
 
 ```dataviewjs
 dv.taskList(dv.pages('"main"').file.tasks

@@ -1,5 +1,5 @@
 {
-  "theme": "obsidian",
+  "theme": "moonstone",
   "lightStyle": "minimal-light",
   "darkStyle": "minimal-dark",
   "lightScheme": "minimal-macos-light",
@@ -8,7 +8,7 @@
   "lineHeight": 1.5,
   "lineWidth": 50,
   "lineWidthWide": 50,
-  "maxWidth": 88,
+  "maxWidth": 95,
   "textNormal": 17,
   "textSmall": 13,
   "imgGrid": true,
@@ -25,12 +25,12 @@
   "fullWidthMedia": false,
   "bordersToggle": true,
   "minimalStatus": true,
-  "focusMode": false,
+  "focusMode": true,
   "underlineInternal": false,
   "underlineExternal": false,
   "useSystemTheme": true,
   "folding": true,
   "lineNumbers": false,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "devBlockWidth": false
 }

@@ -1,0 +1,1 @@
+this is obsidian from mobile, helllo

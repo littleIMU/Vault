@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge.md",
+                "file": "main/knowledge/Cartographer.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "4584b397ccc2d916",
+            "id": "cfd44986572a6c86",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Chrome_Clippings.md",
+                "file": "main/knowledge/carto and cyglidar.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,28 +34,20 @@
             }
           },
           {
-            "id": "b2ed4a01b471b6f5",
+            "id": "f5bb6a5190c5b073",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Control Panel.md",
+                "file": "main/knowledge/c++ advance.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "468f2cc4a998b241",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Demo",
+                "query": "tag:#Ques",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8578cefc7dc2c80b",
@@ -122,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "main/knowledge/carto and cyglidar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,6 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "main/knowledge/carto and cyglidar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +154,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "main/knowledge/carto and cyglidar.md"
+              }
             }
           },
           {
@@ -171,27 +168,27 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 339.5,
+    "width": 200,
     "collapsed": true
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "0c1f24771915b070",
+  "active": "cfd44986572a6c86",
   "lastOpenFiles": [
-    "test2.md",
-    "test.md",
-    "Control Panel.md",
-    "_Chrome_Clippings.md",
-    "Knowledge.md",
-    "Course.md",
+    "main/knowledge/Flash ToF Lidar/Supplies/cyglidar_d1.md",
+    "main/knowledge/carto and cyglidar.md",
+    "main/knowledge/Easy Commands.md",
+    "main/action/xtark src config.md",
+    "main/knowledge/udev rule.md",
+    "main/knowledge/Serial port setting.md",
+    "main/action/cartographer_code.md",
+    "Untitled.md",
     "main/knowledge/Cartographer.md",
-    "main/knowledge/Testfdjsla.md",
-    "main/tool/protocol buffer.md",
-    "main/knowledge/Extended Gaussian Images.md"
+    "main/knowledge/c++ advance.md"
   ]
 }
