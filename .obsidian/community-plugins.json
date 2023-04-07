@@ -18,5 +18,8 @@
   "url-into-selection",
   "quick-explorer",
   "obsidian-tasks-plugin",
-  "wikilinks-to-mdlinks-obsidian"
+  "wikilinks-to-mdlinks-obsidian",
+  "obsidian-vimrc-support",
+  "breadcrumbs",
+  "obsidian-open-link-with"
 ]

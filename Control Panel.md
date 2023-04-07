@@ -11,7 +11,6 @@ dv.table(["File","Status","Category","LastEdited"], dv.pages('"main"')
 ```
 
 # Recent  Todos
-
 ```dataviewjs
 dv.taskList(dv.pages('"main"').file.tasks
 	.where(t => t.text.includes("#Todo"))
@@ -19,7 +18,6 @@ dv.taskList(dv.pages('"main"').file.tasks
 ```
 
 # Recent Questions
-
 ```dataviewjs
 dv.taskList(dv.pages('"main"').file.tasks
 	.where(t => t.text.includes("#Ques"))

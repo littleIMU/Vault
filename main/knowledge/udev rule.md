@@ -23,6 +23,7 @@ KERNEL=="ttyCH341USB*", SUBSYSTEM=="usb", ATTRS{idVendor}=="1a86", ATTRS{idProdu
 -MODE: permission mode
 -SYMLINK: represent a usb device as an alias
 *Tips: remember add the user into the group specified in udev file by commmand "*sudo usermod -a -G <groupname> <username>*" (defaut group is "dailout")*
+"sudo usermod -a -G dialout a_username"
 ```
 
 Create rule using a “.sh” file
@@ -41,6 +42,14 @@ echo ""
 echo "Restarting udev"
 echo ""
 sudo service udev reload
+sleep 2
 sudo service udev restart
+# somethims you nee to reboot the os to make it effective
 #sudo udevadm trigger --action=change
+```
+
+show if udev link is working or not
+
+```bash
+ls /dev/<Port_Type>
 ```

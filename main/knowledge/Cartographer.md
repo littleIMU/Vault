@@ -24,15 +24,14 @@ Up Level: (parent:: [Slam Framework](Slam%20Framework.md))
 - [Real-time correlative scan matching](Cartographer/Real-time%20correlative%20scan%20matching.pdf)
 - [Markov localization using correlation](Cartographer/Markov%20localization%20using%20correlation.pdf)
 - [Efficient Sparse Pose Adjustment for 2D Mapping](Cartographer/Efficient%20Sparse%20Pose%20Adjustment%20for%202D%20Mapping.pdf)
-- [A_flexible_and_scalable_SLAM_system_with_full_3D_motion_estimation](Cartographer/A_flexible_and_scalable_SLAM_system_with_full_3D_motion_estimation.pdf)
+- [a_flexible_and_scalable_slam_system_with_full_3D_motion_estimation](Cartographer/A_flexible_and_scalable_SLAM_system_with_full_3D_motion_estimation.pdf)
 - [A Tutorial on Graph-Based SLAM](Cartographer/A%20Tutorial%20on%20Graph-Based%20SLAM.pdf)
 - [A Comparison of Graph Optimization Approaches for Pose Estimation in SLAM](Slam%20Framework/A%20Comparison%20of%20Graph%20Optimization%20Approaches%20for%20Pose%20Estimation%20in%20SLAM.pdf)
 
 # Question
 - [x]  How to calculate the relative pose between a scan and its belonging submap?
 - [x]  The principle of pose_ekf?
-- [ ] pose-pose edge, where the virtual measurement between two nodes come from? A transformation that make the observation acquired from two nodes maximally overlapped. I can understand it in close-loop, but in submap, the predicted measurement seems to be the same as virtual measurement as the predicted measurement is derived from scanmatching technique.
-- [ ]  
+- [x] pose-pose edge, where the virtual measurement between two nodes come from? Fom the output of multi-resolution map CSM  ✅ 2023-02-23
 
 # Compile problem
 
@@ -42,12 +41,8 @@ Up Level: (parent:: [Slam Framework](Slam%20Framework.md))
 ## https://www.lua.org/download.html
 ## https://www.daimajiaoliu.com/daima/7123bc159bd5801
 ## fatal error: readline/readline.h: No such file or directory
-~~sudo apt install libreadline-dev
-curl -R -O http://www.lua.org/ftp/lua-5.2.0.tar.gz
-tar zxf lua-5.2.0.tar.gz
-cd lua-5.2.0
-make linux test~~
-sudo apt install liblua5.2-0
+#sudo apt install liblua5.2-0 
+sudo apt install liblua5.2-dev
 
 ##
 <== Failed to process package 'cartographer':
@@ -130,3 +125,8 @@ Eigen::Quaterniond PoseExtrapolator::ExtrapolateRotation(
 ## CSM using DFS Branch-bundle scan match
 
 [CSM explain](Cartographer/CSM%20explain.pdf)
+
+## gazebo and cartographer
+
+to apply cartographer on gazebo simulation, the "config/turtlebot3_lds_2d.lua" need to be modifies. The tracking frame is set to "base_footprint" insead of "imu_link".
+- [ ] #Ques  Only modify launch by replacing .lua file can not work. 🛫 2023-02-17 

@@ -91,13 +91,14 @@ The most useful example when **setSearchSurface()** should be used, is when we 
 
 ## Surface Normal Estimation
 
-![](Point%20Cloud%20Processing/Untitled.png)
+![500](Point%20Cloud%20Processing/Untitled.png)
 
-Where $k$ is the number of point neighbors considered *in the neighborhood of $p_i$, $\bar{p}$* represents the 3D centroid of the nearest neighbors, $\lambda_j$ is the $j$-th eigenvalue of the covariance matrix, and  $\vec{V_j}$ the $j$-th eigenvector.
+Where $k$ is the number of point neighbors considered *in the neighborhood of $p_i$, $\bar{p}$* represents the 3D centroid of the nearest neighbors, $\lambda_j$ is the $j$-th eigenvalue of the covariance matrix, and  $\vec{V_j}$ the $j$-th eigenvector. An interpretation of the geometric meaning of the covariance matrix is [here](Point%20Cloud%20Processing/A%20geometric%20interpretation%20of%20the%20covariance%20matrix.pdf).
+- [ ] #Ques  What is planarity and why is it calculated from (eig_vals[1]-eig_vals[2])/eig_vals[0]? 🛫 2023-02-22 The degree of surface smooth
 
 The right part of the figure presents the Extended Gaussian Image (EGI), also known as the normal sphere, which describes the orientation of all normals from the point cloud. Since the datasets are 2.5D and have thus been acquired from a single viewpoint, normals should be present only on half of the sphere in the EGI. However, due to the orientation inconsistency, they are spread across the entire sphere.
 
-![https://pcl.readthedocs.io/projects/tutorials/en/latest/_images/unflipped_scene1.jpg](https://pcl.readthedocs.io/projects/tutorials/en/latest/_images/unflipped_scene1.jpg)
+![100%](https://pcl.readthedocs.io/projects/tutorials/en/latest/_images/unflipped_scene1.jpg)
 
 ![https://pcl.readthedocs.io/projects/tutorials/en/latest/_images/unflipped_scene2.jpg](https://pcl.readthedocs.io/projects/tutorials/en/latest/_images/unflipped_scene2.jpg)
 

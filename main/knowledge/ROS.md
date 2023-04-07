@@ -29,15 +29,12 @@ For instance, in a simple publisher-subscriber mode, the publisher keeps sending
     
     - name="arg_name"
         - Name of argument.
-        
         default="default value" *(optional)*
         
         - Default value of argument. Cannot be combined with value attribute.
-        
         value="value" *(optional)*
         
         - Argument value. Cannot be combined with default attribute.
-        
         doc="description for this arg" *(optional)* **New in Indigo**
         
         - Description of the argument. You could get this through -ros-args argument to the roslaunch command.
@@ -180,6 +177,7 @@ CMake lint commands for ROS packages. The lint commands perform static checking 
 # [Dynamic_reconfiguration](http://wiki.ros.org/dynamic_reconfigure)
 
 The dynamic_reconfigure package provides a means to update parameters at runtime without having to restart the node.
+The gui configure can be done with command `rosrun rqt_reconfigure rqt_reconfigure `
 
 # [Dynamic Reconfigure](http://wiki.ros.org/dynamic_reconfigure/Tutorials)
 
@@ -270,3 +268,61 @@ CPU总时间（user + sys）是CPU执行用户进程操作和内核（代表用�
 real < CPU  表明进程为计算密集型（CPU bound），利用多核处理器的并行执行优势
 real ≈ CPU  表明进程为计算密集型，未并行执行
 real > CPU  表明进程为I/O密集型 （I/O bound），多核并行执行优势并不明显
+
+# map saving 
+
+```bash
+rosrun map_server map_saver -f ~/map
+```
+
+# catkin_make with gtest
+
+first you define condition sentences when CATKIN_ENABLE_TESTING is true in CMakeLists.txt such as:
+```txt
+if(CATKIN_ENABLE_TESTING)
+	# Find package test dependencies
+	find_package(rostest REQUIRED)
+	# Add the test folder to the include directories
+	include_directories(<test_path>)
+	# Create targets fo test executables
+	......
+```
+example file is as below:
+[CMakeLists.txt with CATKIN_ENABLE_TESTING](ROS/CMakeLists.txt)
+Then, enbale TESTING function in catkin_make using 
+ ~~catkin_make _DCATKIN_ENABLE_TESTING=1~~
+`roscore
+catkin_make run_tests`
+
+# service and action
+
+- service process: client send a reuest and wait for the result from the service.
+- action process: client send a goal or cancel command, the action service center gives the status of processing. If the action is not cancel by the client, the sevice center would finnaly offers a result. During the period, client can choose between waiting for the result and doing other things. 
+![](ROS/image-20230106162126752.png)
+
+
+# costmap
+
+http://wiki.ros.org/costmap_2d
+[explanation of costmap_2d](https://blog.csdn.net/allenhsu6/article/details/113057784)
+![](ROS/image-20230112180721376.png)
+
+
+Following is how to calculate cost value:
+
+_exp(-1.0 * cost_scaling_factor * (distance_from_obstacle - inscribed_radius)) *(costmap_2d::INSCRIBED_INFLATED_OBSTACLE - 1)_, 
+
+where costmap_2d::INSCRIBED_INFLATED_OBSTACLE is 254. cost value decreases when cost_scaling_factor inscreases.
+
+- [ ] #Ques what is _distance_from_obstacle_ in global map? How to handle the situation with multiple obstacles? -> get the neatest one 🛫 2023-01-12 
+![](ROS/Peek%202023-01-12%2018-11.gif)
+
+# grip_map
+
+features: elevation layer, conversion to pointcloud2, grridmap
+more details including how to implement is [here](ROS/UniversalGridMapLibraryWebsiteVersion.pdf).
+
+# TF frame
+![](ROS/image-20230215152227886.png)
+
+The /odom frame is the place where your robot is initialized, while the /map frame is the origin of your map. Those are usually NOT the same (except your robot is standing at the exact origin of your map when beeing initialized).

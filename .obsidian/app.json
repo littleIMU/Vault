@@ -1,10 +1,10 @@
 {
-  "attachmentFolderPath": "./carto and cyglidar",
+  "attachmentFolderPath": "./embedded system",
   "vimMode": true,
   "useMarkdownLinks": true,
   "newFileLocation": "current",
   "newLinkFormat": "relative",
-  "readableLineLength": false,
+  "readableLineLength": true,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "A4",
@@ -12,5 +12,7 @@
     "margin": "0",
     "downscalePercent": 90
   },
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "alwaysUpdateLinks": true,
+  "showLineNumber": false
 }

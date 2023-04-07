@@ -283,13 +283,14 @@ int main(void)
 
 # char[] and std::string
 
-char[] can be allocated on the stack when you initialize it or allocated on the heap using malloc() or new().
+char[] can be allocated on the stack when you initialize it with a specified size or allocated on the heap using malloc() or new().
 
-a string is a c;ass that contains a char array with other information like the size of it. The string object definition is stored on the stack but its implementation to construct an object uses memory on the heap.
+a string is a class that contains a char array with other information like the size of it. The string object definition is stored on the stack but its implementation to construct an object uses memory on the heap.
 
 Comparing between them, string is faster than heap-allocated char arrays for short texts and protect you from buffer overruns. However, C++ string occupy more memory space and is not very suitable for usage across DLL boundaries.
 
 When main() want to use a dynamic library, it add .h file  into the code and compile into .o file. The implementation is realized by get the address of .so file and the offset address of referred variables or function. While only .so file change, e.g., add some debug sentences, the entrance address of variables and functions will  be bias from the original ones. This would cause program error in runtime.
+- [ ] #Ques why add some debug sentences, the entrance address of v and f will change? 🛫 2022-11-14 
 
 [Difference between string and char[] types in C++](https://stackoverflow.com/questions/1287306/difference-between-string-and-char-types-in-c#comment1146663_1287357)
 
@@ -629,8 +630,37 @@ func f = example;
 
 - A derived class doesn’t inherit ***access*** to private data members. However, it does inherit a full parent object, which contains any private members which that class declares.
 - When a base class is privately inherited by the derived class, public members of the base class becomes the private members of the derived class and therefore, the public members of the base class can only be accessed by the member functions of the derived class. They are inaccessible to the objects of the derived class.
-- On the other hand, when the base class is publicly inherited by the derived class, public members of the base class also become the public members of the derived class. Therefore, the public members of the base class are accessible by the objects of the derived class as well as by the member functions of the derived class.
+- 局路径规划插件实现时要继On the other hand, when the base class is publicly inherited by the derived class, public members of the base class also become the public members of the derived class. Therefore, the public members of the base class are accessible by the objects of the derived class as well as by the member functions of the derived class.
+  
+  Inheritance key word
+```c++
+class Base {
+  public:
+    int x;
+  protected:
+    int y;
+  private:
+    int z;
+};
 
+class PublicDerived: public Base {
+  // x is public
+  // y is protected
+  // z is not accessible from PublicDerived
+};
+
+class ProtectedDerived: protected Base {
+  // x is protected
+  // y is protected
+  // z is not accessible from ProtectedDerived
+};
+
+class PrivateDerived: private Base {
+  // x is private
+  // y is private
+  // z is not accessible from PrivateDerived
+};
+```
 # virtual function
 
 [Virtual Function in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/virtual-function-cpp/)
@@ -695,7 +725,7 @@ Output:
 
 ![Untitled](c++%20basic%2066c6e1e8cfbf457c81a0f61cf5aa5855/Untitled.png)
 
-Late binding (Runtime, non-virtual function) is done in accordance with the content of pointer (i.e. location pointed to by pointer) and Early binding (Compile time, virtual function) is done according to the type of pointer.
+Early binding (Runtime, non-virtual function) is done in accordance with the content of pointer (i.e. location pointed to by pointer) and Late binding (Compile time, virtual function) is done according to the type of pointer.
 
 # auto &
 

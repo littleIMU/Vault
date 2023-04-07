@@ -29,7 +29,7 @@ Also called as contour matrix and Fisher matrix
 
 -   definition second derivative of log likelihood function
 - ![](Information%20Matrix/2021-04-30-22-10-34.png)
--   using in MLP, see P7 in 
+-   used in MLE [[Bayesian Estimation.md#Reference]], see P7 in 
 - ![](Information%20Matrix/2021-04-30-22-11-05.png)
 
 

@@ -1,0 +1,15 @@
+{
+  "selected": "_system",
+  "custom": {},
+  "modifierBindings": [
+    {
+      "id": "OD0K9I",
+      "platform": "unknown",
+      "modifier": "none",
+      "auxClickOnly": true
+    }
+  ],
+  "enableLog": false,
+  "timeout": 500,
+  "inAppViewRec": []
+}

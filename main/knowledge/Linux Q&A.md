@@ -112,5 +112,3 @@ sudo python2 get-pip.py
 pip2 -version 
 pip2 --version
 ```
-
-

@@ -17,8 +17,10 @@ Up Level: (parent:: [algorithm](algorithm.md))
 ```toc
 ```
 ### 📇Reference
-[IMU Sensor Fusion with exponentional filter](https://josephmalloch.wordpress.com/portfolio/imu-sensor-fusion/)
-[Mahony Filter](https://github.com/PaulStoffregen/MotionCal/blob/master/mahony.c)
+[zhihu-exlanation of mahoney algorithm](https://zhuanlan.zhihu.com/p/438724546)
+[Mahony Filter code](https://github.com/PaulStoffregen/MotionCal/blob/master/mahony.c)
+[AHRS in readthedocs.io](https://ahrs.readthedocs.io/en/latest/filters/angular.html)
+[(video) sensor fusion provided by matlab](https://www.youtube.com/watch?v=0rlvvYgmTvI&list=PLn8PRpmsu08ryYoBpEKzoMOveSTyS-h4a&index=2)
 
 ### ❓Question
 
@@ -31,12 +33,7 @@ The orientation estimate described above (calculated from accelerometer and magn
 
 accel_mag_ema = a * accel_mag + (1 - a) * accel_mag_ema;
 
-# Mahony Filter
 
-1.  pi compensation (related to PID control) It has two gains Ki and Kp compared to one gain K in standard Kalman filter.
-2.  predicted orientation is calculated with quaternion or quaternion and magnetic field
-3.  orientation error is the cross matrix between Acceleration and predicted orientation.
-4.  orientation increment from updated gyro
 
 
 

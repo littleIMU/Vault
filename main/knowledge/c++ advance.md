@@ -184,7 +184,7 @@ A prvalue expression has no address that is accessible by your program. Examples
 
 # prvalue
 
-- [ ]  #Ques Is the lifetime within a sentence?
+- [ ] #Ques Is the lifetime within a sentence?
 
 If it has identity, but cannot be moved it’s an lvalue; otherwise it’s an rvalue. A typical lvalue is a variable name a.
 If it can be moved, but has no identity is a prvalue (pure right value); otherwise it’s a glvalue (generalized left value). A typical prvalue is a temporary resulting from a function call/operator (with a non-reference return type) like s.substr(1, 2) or a + b or integral constant like 42.
@@ -216,7 +216,7 @@ int main()
 
 # std::allocator
 
-//? why ros generated msg has <ContainerAllocator>?
+-  [ ] #Ques why ros generated msg has `<ContainerAllocator>`? 🛫 2023-02-02 
 
 the following code:
 

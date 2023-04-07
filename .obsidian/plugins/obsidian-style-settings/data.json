@@ -2,8 +2,6 @@
   "minimal-style@@zoom-off": true,
   "things-style@@link-decoration": "None",
   "things-style@@link-external-decoration": "None",
-  "quick-explorer@@qe-hide-breadcrumbs": false,
-  "quick-explorer@@qe-obsidian-title": "qe-title-hide",
   "minimal-style@@image-muted": 1,
   "minimal-style@@file-header-font-weight": 800,
   "minimal-style@@file-header-justify": "left",
@@ -18,5 +16,8 @@
   "minimal-style@@table-numbers": false,
   "minimal-style@@inline-title-size": "1.125em",
   "minimal-style@@window-title-off": false,
-  "minimal-style@@inline-title-weight": 700
+  "minimal-style@@inline-title-weight": 700,
+  "quick-explorer@@qe-obsidian-title": "qe-title-center",
+  "quick-explorer@@qe-hide-breadcrumbs": false,
+  "minimal-style@@file-header-visibility": "minimal-tab-title-visible"
 }

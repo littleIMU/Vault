@@ -16,7 +16,7 @@ ___
     * generated information matrix, then de-sparse the matrix, i.e. get rid of low-correlation element. 
 ___
 * Grid Map
-    * Bresenham's line algorithm
+    * [Bresenham's line algorithm](https://blog.csdn.net/SX2101111/article/details/123722418)
     * using log odd instead of log likelihood
     * scan match
       * Iterative closest point

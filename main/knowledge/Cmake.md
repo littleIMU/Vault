@@ -106,3 +106,22 @@ cmake
 1. Read the output of CMake
 2. Debug with --debug-output (for debug output) --trace (complete trace) and --trace-expand (trace and expanded variables).
 3. Check the generated files like the CMakeCaches.txt, CmakeError.log and CMakeOuput.log
+
+# Scope
+## Link Inheritance
+
+[Source](https://leimao.github.io/blog/CMake-Public-Private-Interface/)
+
+### PUBLIC
+
+All the objects following `PUBLIC` will be used for linking to the current target and providing the interface to the other targets that have dependencies on the current target.
+
+### PRIVATE
+
+All the objects following `PRIVATE` will only be used for linking to the current target.
+
+### INTERFACE
+
+All the objects following `INTERFACE` will only be used for providing the interface to the other targets that have dependencies on the current target.
+
+For example, if the `fruit` library has the implementation of functions, such as `size` and `color`, and the `apple` library has a function `apple_size` which called the `size` from the `fruit` library and was `PRIVATE` linked with the `fruit` library. We could create an executable `eat_apple` that calls `apple_size` by `PUBLIC` or `PRIVATE` linking with the `apple` library. However, if we want to create an executable `eat_apple` that calls the `size` and `color` from the `fruit` library, only linking with the `apple` library will cause building error, since the `fruit` library was not part of the interface in the `apple` library, and is thus inaccessible to `eat_apple`. To make the `apple` library to inherit the `size` and `color` from the `fruit` library, we have to make the linking of the `apple` library to the the `fruit` library `PUBLIC` instead of `PRIVATE`.

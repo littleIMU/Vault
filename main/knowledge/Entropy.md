@@ -19,6 +19,7 @@ Up Level: (parent:: [Meditation](Meditation.md))
 # Mathematical definition
 
 https://youtu.be/YtebGVx-Fxw
+
 ![](Entropy/PSX_20220721_013522.jpg)
 ![](Entropy/PSX_20220721_013325.jpg)
 
@@ -39,3 +40,9 @@ Example
 _A system set up in the initial conditions on the separated arears_
 
 Consider the two systems above, for example. On the left, a box with a divider in the middle has cold gas on one side and hot gas on the other; on the right, the divider is opened and the entire box has gas of the same temperature. Which system has more entropy? The well-mixed one on the right, because there are more ways to arrange (or swap) the quantum states when all the particles have the same properties than when half have one set of properties and half have another, distinct set of properties.
+
+# Relative Entropy
+
+In probabilty, relative entroypy is used to measure the difference between two probabilty distributions.
+![](Entropy/image-20230215181234879.png)
+

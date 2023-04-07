@@ -75,6 +75,8 @@ gradient (partial derivatives) in 2d or 3d space represents the direction of mos
 
 ## Canny Edge Detection
 
+[more details](https://en.wikipedia.org/wiki/Canny_edge_detector)
+
 one-directional laplacian 
 
 ![Untitled](Edge&Boundary&SIFT%20detection/Untitled%209.png)

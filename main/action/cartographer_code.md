@@ -192,7 +192,7 @@ spin();
 // client
 ros::ServiceClient client = n.serviceClient<beginner_tutorials::AddTwoInts>("add_two_ints");
 client.call(srv)
-```
+1. ```
 
 Given `kSubmapQueryService` as an example:
 
@@ -201,7 +201,7 @@ std::vector<::ros::ServiceServer> service_servers_;
 ...
 service_servers_.push_back(node_handle_.advertiseService(
       kSubmapQueryServiceName, &Node::HandleSubmapQuery, this));
-...
+1. ...
 bool Node::HandleSubmapQuery(
     ::cartographer_ros_msgs::SubmapQuery::Request& request,
     ::cartographer_ros_msgs::SubmapQuery::Response& response) {
@@ -642,7 +642,7 @@ void Node::HandleLaserScanMessage(const int trajectory_id,
 
 # SensorBridge [C]
 
-//? It is true?: Converts ROS messages into SensorData in tracking frame for the MapBuilder.
+[ ] #Ques  It is true?: Converts ROS messages into SensorData in tracking frame for the MapBuilder.
 
 ```cpp
 SensorBridge

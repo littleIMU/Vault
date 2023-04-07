@@ -91,3 +91,11 @@ int main()
 	return(0);
 }
 ```
+
+Diference from const argument
+```c++
+obj a;
+void func(const &a){
+	// the obj a can not be modified in this function
+}
+```

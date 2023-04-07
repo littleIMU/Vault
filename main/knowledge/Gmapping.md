@@ -52,19 +52,23 @@ ROS rviz flowchart
 
 ## Model
 
-![Untitled](Gmapping/Untitled%201.png)
+![](Gmapping/image-20230214135119337.png)
 
 ![Untitled](Gmapping/Untitled%202.png)
 
 $$
 \begin{aligned}w_{t}^{(i)} &=w_{t-1}^{(i)} \frac{\eta p\left(z_{t} \mid m_{t-1}^{(i)}, x_{t}^{(i)}\right) p\left(x_{t}^{(i)} \mid x_{t-1}^{(i)}, u_{t-1}\right)}{p\left(x_{t} \mid m_{t-1}^{(i)}, x_{t-1}^{(i)}, z_{t}, u_{t-1}\right)} \\& \propto w_{t-1}^{(i)} \frac{p\left(z_{t} \mid m_{t-1}^{(i)}, x_{t}^{(i)}\right) p\left(x_{t}^{(i)} \mid x_{t-1}^{(i)}, u_{t-1}\right)}{\frac{p\left(z_{t} \mid m_{t-1}^{(i)}, x_{t}\right) p\left(x_{t} \mid x_{t-1}^{(i)}, u_{t-1}\right)}{p\left(z_{t} \mid m_{t-1}^{(i)}, x_{t-1}^{(i)}, u_{t-1}\right)}} \\&=w_{t-1}^{(i)} \cdot p\left(z_{t} \mid m_{t-1}^{(i)}, x_{t-1}^{(i)}, u_{t-1}\right) \\&=w_{t-1}^{(i)} \cdot \int p\left(z_{t} \mid x^{\prime}\right) p\left(x^{\prime} \mid x_{t-1}^{(i)}, u_{t-1}\right) d x^{\prime}\end{aligned}
 $$
+## Difference from Rao-Blackwellized algorithm:
+	
+![](Gmapping/image-20230214152104774.png)
 
 ## Pseudocode
+- [ ] #Ques  How to compute p(zt | m(t-1),xt) 🛫 2023-02-15 
+![](Gmapping/image-20230214152434222.png)
 
-$$
-\begin{array}{l}\text { if } \hat{x}_{t}^{(i)}=\text { failure then } \\x_{t}^{(i)} \sim p\left(x_{t} \mid x_{t-1}^{(i)}, u_{t-1}\right) \\w_{t}^{(i)}=w_{t-1}^{(i)} \cdot p\left(z_{t} \mid m_{t-1}^{(i)}, x_{t}^{(i)}\right) \\\text { else } \\\quad / / \text { sample around the mode } \\\text { for } k=1, \ldots, K \text { do } \\\quad x_{k} \sim\left\{x_{j}|| x_{j}-\hat{x}^{(i)} \mid<\Delta\right\} \\\text { end for } \\\text { // compute Gaussian proposal } \\\mu_{t}^{(i)}=(0,0,0)^{T} \\\eta^{(i)}=0 \\\text { for all } x_{j} \in\left\{x_{1}, \ldots, x_{K}\right\} \text { do } \\\quad \mu_{t}^{(i)}=\mu_{t}^{(i)}+x_{j} \cdot p\left(z_{t} \mid m_{t-1}^{(i)}, x_{j}\right) \cdot p\left(x_{t} \mid x_{t-1}^{(i)}\right. \\\quad \eta^{(i)}=\eta^{(i)}+p\left(z_{t} \mid m_{t-1}^{(i)}, x_{j}\right) \cdot p\left(x_{t} \mid x_{t-1}^{(i)}, u_{t}\right. \\\text { end for } \\\mu_{t}^{(i)}=\mu_{t}^{(i)} / \eta^{(i)} \\\Sigma_{t}^{(i)}=\mathbf{0} \\\text { for all } x_{j} \in\left\{x_{1}, \ldots, x_{K}\right\} \text { do } \\\quad \Sigma_{t}^{(i)}=\Sigma_{t}^{(i)}+\left(x_{j}-\mu^{(i)}\right)\left(x_{j}-\mu^{(i)}\right)^{T} \\\quad p\left(z_{t} \mid m_{t-1}^{(i)}, x_{j}\right) \cdot p\left(x_{j} \mid x_{t-1}^{(i)}, u_{t-1}\right) \\\text { end for } \\\Sigma_{t}^{(i)}=\Sigma_{t}^{(i)} / \eta^{(i)} \\/ / s_{t} \text { sample new pose } \\x_{t}^{(i)} \sim \mathcal{N}\left(\mu_{t}^{(i)}, \Sigma_{t}^{(i)}\right) \\w_{t}^{(i)}=w_{t-1}^{(i)} \cdot \eta^{(i)}\end{array}
-$$
+## Score 
+[scan match: use gaussian kernel sum as score](Gmapping/param/scanmatcher.pdf)
 
 ## Result
 

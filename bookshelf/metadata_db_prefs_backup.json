@@ -607,10 +607,6 @@
   },
   "gui_view_history": [
     [
-      11,
-      "Markov Chain Monte Carlo Convergence Diagnostics A Comparative Review"
-    ],
-    [
       9,
       "Probabilistic Robotics"
     ],
@@ -619,16 +615,40 @@
       "Foundation"
     ],
     [
-      16,
-      "Computer Systems. A Programmer\u2019s Perspective [3rd ed.] (2016, Pearson)"
+      30,
+      "all"
+    ],
+    [
+      17,
+      "Computer Systems A Programmer's Perspective"
+    ],
+    [
+      10,
+      "Mathematics for Computer Science"
     ],
     [
       4,
       "The Man Upstairs and Other Stories"
     ],
     [
+      6,
+      "Afghan Napoleon: The Life of Ahmad Shah Massoud"
+    ],
+    [
       8,
       "Effective Modern C++"
+    ],
+    [
+      27,
+      "Using inertial sensors for position and orientation estimation"
+    ],
+    [
+      11,
+      "Markov Chain Monte Carlo Convergence Diagnostics A Comparative Review"
+    ],
+    [
+      16,
+      "Computer Systems. A Programmer\u2019s Perspective [3rd ed.] (2016, Pearson)"
     ],
     [
       12,
@@ -639,32 +659,12 @@
       "Discrete Mathematics and Its Applications"
     ],
     [
-      10,
-      "Mathematics for Computer Science"
-    ],
-    [
       15,
       "Randal E. Bryant, David R. O\u2019Hallaron"
     ],
     [
       13,
       "Optimization in Operations Research(2ndEdition)"
-    ],
-    [
-      9,
-      "untitled"
-    ],
-    [
-      5,
-      "Benjamin Franklin"
-    ],
-    [
-      2,
-      "The Foundation Series"
-    ],
-    [
-      3,
-      "The Man Upstairs"
     ]
   ],
   "news_to_be_synced": [],

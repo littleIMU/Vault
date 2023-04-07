@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "976323bedb0b2bb6",
+        "id": "430682d23f05a003",
         "type": "tabs",
         "children": [
           {
-            "id": "4fa9427eee93f2cb",
+            "id": "e850cd8f715a9f69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "main/knowledge/Cartographer.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cfd44986572a6c86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "main/knowledge/carto and cyglidar.md",
+                "file": "task/embedded system.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,20 +21,16 @@
             }
           },
           {
-            "id": "f5bb6a5190c5b073",
+            "id": "6d83c3bd7e3b3143",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "main/knowledge/c++ advance.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "main/knowledge/Bayesian Estimation/mle_introduction.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,10 +49,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Ques",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -98,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 234.5
   },
   "right": {
     "id": "8578cefc7dc2c80b",
@@ -115,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "main/knowledge/carto and cyglidar.md",
+                "file": "task/embedded system.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "main/knowledge/carto and cyglidar.md",
+                "file": "task/embedded system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "main/knowledge/carto and cyglidar.md"
+                "file": "task/embedded system.md"
               }
             }
           },
@@ -166,29 +148,95 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "53d7567bed066550",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "abc0ec02de19fb3c",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 380.5,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false,
+      "obsidian42-text-transporter:Obsidian42 - Text Transporter": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "audio-recorder:Start/stop recording": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
+    }
   },
-  "active": "cfd44986572a6c86",
+  "active": "e850cd8f715a9f69",
   "lastOpenFiles": [
-    "main/knowledge/Flash ToF Lidar/Supplies/cyglidar_d1.md",
-    "main/knowledge/carto and cyglidar.md",
-    "main/knowledge/Easy Commands.md",
-    "main/action/xtark src config.md",
-    "main/knowledge/udev rule.md",
-    "main/knowledge/Serial port setting.md",
-    "main/action/cartographer_code.md",
-    "Untitled.md",
-    "main/knowledge/Cartographer.md",
-    "main/knowledge/c++ advance.md"
+    "main/tool/git and github.md",
+    "main/knowledge/Gmapping.md",
+    "main/knowledge/App in Ubuntu.md",
+    "main/knowledge/rtos.md",
+    "main/knowledge/rtos/image-20230329114031444.png",
+    "main/knowledge/rtos",
+    "main/knowledge/Kalman Filter.md",
+    "main/knowledge/Easy Commands.md.partial",
+    "main/knowledge/SPI I2C UART.md.partial",
+    "main/knowledge/c++ basic.md.partial",
+    "main/knowledge/ICP.md.partial",
+    "main/knowledge/Nonlinear Optimization.md.partial",
+    "main/knowledge/Point Cloud Processing.md.partial",
+    "main/knowledge/Cartographer.md.partial",
+    "main/knowledge/ROS.md.partial",
+    "main/knowledge/Gmapping.md.partial",
+    "main/knowledge/Path Planning/image-20230221172203137.png",
+    "main/knowledge/Nonlinear Optimization/image-20230222161411130.png",
+    "main/knowledge/Entropy/image-20230215181234879.png",
+    "main/knowledge/Particle Filter/image-20230215182301615.png",
+    "main/knowledge/Particle Filter/image-20230215182236084.png",
+    "main/knowledge/Particle Filter/image-20230215183708587.png",
+    "main/knowledge/ROS/image-20230215152227886.png",
+    "main/tool/Math tables/image-20230213173735185.png",
+    "main/knowledge/Particle Filter/image-20230214134355087.png",
+    "main/knowledge/embedded development.md",
+    "main/knowledge/python.md",
+    "main/knowledge/complete coverage path planner.md",
+    "main/knowledge/problem solved.md",
+    "main/knowledge/python module.md",
+    "main/knowledge/Path Planning.md",
+    "main/tool/Math tables.md",
+    "main/knowledge/temp.md",
+    "main/knowledge/Gazebo.md",
+    "main/knowledge/Daily Items Manager.md",
+    "main/knowledge/parallel path planning.md",
+    "main/knowledge/classifier .md",
+    "main/lab/E81 CSE 550A.md",
+    "main/course/Udacity - AI cs271.md",
+    "main/knowledge/Sensor fusion.md",
+    "task/embedded system.md",
+    "task/nav in ros1.md",
+    "task/coding exercise.md",
+    "task/full path coverage.md",
+    "main/knowledge/Bayesian Estimation.md",
+    "main/knowledge/Li Algebra and Li Group.md"
   ]
 }

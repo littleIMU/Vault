@@ -39,6 +39,7 @@ cd <DIR>/orocos-bfl
 mkdir build
 cd build
 export CMAKE_INCLUDE_PATH=<DIR>/orocos-bfl/to/installed/library/include
+# et. export CMAKE_INCLUDE_PATH=/home/jhrobot/tmp/orocos-bfl/to/installed/library/include
 export CMAKE_LIBRARY_PATH=<DIR>/orocos-bfl/to/installed/library/lib
 cmake ..
 # error no cppunit found
@@ -52,9 +53,9 @@ catkin_make --only-pkg-with-deps exploration_msgs
 # /home/jhrobot/robot/ros_ws/src/neabot_package/neabot_lidar/xtlidar_ros/src/xtlidar_node.cpp:8:10: fatal error: xtlidar_ros/DynParamsConfig.h: No such file or directory
     8 | #include <xtlidar_ros/DynParamsConfig.h>
       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Dynamic reconfiguration
+# related to "Dynamic reconfiguration"
 catkin_make --only-pkg-with-deps xtlidar_ros
-catkin_make -DCATKIN_WHITELIST_PACKAGES=""  #add built package into whitelist
+catkin_make -DCATKIN_WHITELIST_PACKAGES=""  #reset whitelist to all packages
 
 # In ros-noetic-ros-base, extra packages need to be installed
 sudo apt install ros-noetic-diagnostic-updater ros-noetic-roslint ros-noetic-filters 

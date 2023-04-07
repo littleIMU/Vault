@@ -26,6 +26,10 @@ link_notes:
 
 [freemdict](https://downloads.freemdict.com/)
 
+[louischeung.top](http://louischeung.top:225/)
+
+[online reverse dictionary, synonym and thesarus searching](https://www.onelook.com/thesaurus/)
+
 # Online program testing
 
 [Compiler Explorer](https://godbolt.org/)
@@ -35,3 +39,7 @@ link_notes:
 # Instant math answer
 
 [Math Homework Help - Answers to Math Problems - Hotmath](https://www.varsitytutors.com/hotmath)
+
+# Web application 
+
+[online 3d catplot](https://c3d.libretexts.org/CalcPlot3D/index.html)

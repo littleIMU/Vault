@@ -40,18 +40,16 @@ cons
 
 The graph below shows the result of applying 5000 random normal errors to each of the calcium concentrations we showed above
 
-![Untitled](smoothing%20194f653fd61949729f0035c1e95d27e9/Untitled.png)
+![](smoothing/Untitled.png) ![](smoothing/Untitled%201.png)
 
-![Untitled](smoothing%20194f653fd61949729f0035c1e95d27e9/Untitled%201.png)
+![](smoothing/Untitled%202.png)
 
 ## Gaussian smoothing
 
-![Untitled](smoothing%20194f653fd61949729f0035c1e95d27e9/Untitled%202.png)
 
-![Untitled](smoothing%20194f653fd61949729f0035c1e95d27e9/Untitled%203.png)
+![100%](smoothing/Untitled%203.png)
 
 ### code example
-
 ```python
 from datetime import datetime
 import pandas as pd
@@ -70,11 +68,10 @@ npl['date'] = pd.to_datetime(npl['date'])
 
 plt.plot(npl['date'],npl['new_cases'])
 
-# calculating Gaussian kernel values 
+# calculating Gaussian kernel values in specified time 2022-10-27
 npl['gkv'] = np.exp(
     -(((npl['date'] - datetime(2020, 10, 27)).apply(lambda x: x.days)) ** 2) / (2 * (2 ** 2))
 )
-
 ##  standardize the kernel values 
 npl['gkv'] = npl['gkv'] / npl['gkv'].sum()
 (npl['new_cases'] * npl['gkv']).sum()
@@ -96,15 +93,14 @@ plt.show()
 
 output
 
-![Untitled](smoothing%20194f653fd61949729f0035c1e95d27e9/Untitled%204.png)
-
+![100%](smoothing/Untitled%204.png)
 ## Example of a Gaussian convolution matrix
-
-![Untitled](smoothing%20194f653fd61949729f0035c1e95d27e9/Untitled%205.png)
+![100%](smoothing/Untitled%205.png)
 
 ### How to get this convolution matrix
 
-Above figure shows a suitable integer-valued convolution kernel that approximates a Gaussian with a  of 1.0. It is not obvious how to pick the values of the mask to approximate a Gaussian. One could use the value of the Gaussian at the centre of a pixel in the mask, but this is not accurate because the value of the Gaussian varies non-linearly across the pixel. 
+The idea of Gaussian smoothing is to use this 2-D distribution as a 'point-spread' function, and this is achieved by convolution. Since the image is stored as a collection of discrete pixels we need to produce a discrete approximation to the Gaussian function before we can perform the convolution. In theory, the Gaussian distribution is non-zero everywhere, which would require an infinitely large convolution kernel, but in practice it is effectively zero more than about three standard deviations from the mean, and so we can truncate the kernel at this point. 
+Above figure shows a suitable integer-valued convolution kernel that approximates a Gaussian with a sum of 1.0. It is not obvious how to pick the values of the mask to approximate a Gaussian. One could use the value of the Gaussian at the centre of a pixel in the mask, but this is not accurate because the value of the Gaussian varies non-linearly across the pixel. 
 
 - We integrated the value of the Gaussian over the whole pixel (by summing the Gaussian at 0.001 increments).
 - The integrals are not integers: we rescaled the array so that the corners had the value 1. Finally, the 273 is the sum of all the values in the mask.
